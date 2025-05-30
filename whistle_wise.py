@@ -41,7 +41,7 @@ def extract_glossary(soup, sport_name):
 def build_chain():
     from langchain.chains import create_retrieval_chain
     from langchain_community.document_loaders import WebBaseLoader
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyDoOv96fCayBc-5vA_tBoIAFyNglFDizAQ"
+    os.environ["GOOGLE_API_KEY"] = ""
 
     sport_glossary_urls = {
         "Basketball": "https://en.wikipedia.org/wiki/Glossary_of_basketball_terms",
